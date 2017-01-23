@@ -50,8 +50,6 @@ body {
 	background-color: #efeee7;
 	font-family: "Georgia", "Times New Roman", "Times", "serif";
 	font-color: #333333;
-	
-
 }
 h1 {
 	font-size: 35px;
@@ -76,12 +74,13 @@ nav h1 {
 	margin: 0px;
 }
 nav p {
+
 	text-align: right;
 	font-size: 20px;
 	display: inline;
 	float: right;
 	padding: 0 15px 0px 15px;
-	color: #9C9C9C;
+	
 	position: relative;
 	bottom: 50px;
 	right: 22%;
@@ -91,6 +90,7 @@ a, a:visited, a:hover, a:focus, a:active  {
  text-decoration: none; 
  color: #9C9C9C;
 }
+
 section {
 	width: 650px;
 	border: 1px solid #cccccc;
@@ -115,10 +115,23 @@ section img {
 	width: 250px;
 
 }
-section p {
-	line-height: 2.0;
-	margin-top: 15px;
-	font-size: 17px;
+input {
+	width: 90%;
+}
+
+input[type=message] {
+	height: 250px;
+}
+
+input[type=submit] {
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 40px;
+}
+
+.s-form {
+	width: 20%;
 }
 
 aside {
