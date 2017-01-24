@@ -93,6 +93,7 @@ a, a:visited, a:hover, a:focus, a:active  {
 
 section {
 	width: 650px;
+	height: 740px;
 	border: 1px solid #cccccc;
 	background-color: #ffffff;
 	margin: 20px;
@@ -110,58 +111,144 @@ section h2 {
 }
 section img {
 	margin: 10px;
-	margin-right: 20px;
-	float: left;
+	padding: 15px 10px 10px 30px;
 	width: 250px;
-
-}
-input {
-	width: 90%;
+	position: relative;
+	
 }
 
-input[type=message] {
-	height: 250px;
+
+.container-rpg {
+	position: relative;
+	float: right;
+	
+	
 }
 
-input[type=submit] {
-	font-size: 15px;
-	color: #ffffff;
-	background-color: #4aaaa5;
-	height: 40px;
+
+.text-rpg {
+	z-index:100;
+    position: absolute;    
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+    left:13%;
+    top:65%;
+    width: 230px; 
+    text-align: center;
+    letter-spacing: -1px;  
+   	background: #4aaaa5;
+   	padding: 10px;
+
 }
 
-.s-form {
-	width: 20%;
+.container-hangman {
+	position: relative;
 }
+
+
+.text-hangman {
+	z-index:100;
+    position: absolute;    
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+     left:6.2%;
+    top:65%;
+    width: 230px; 
+    text-align: center;
+    letter-spacing: -1px;  
+   	background: #4aaaa5;
+   	padding: 10px;
+}
+
+.container-rutgers {
+	position: relative;
+	float: right;
+}
+
+
+.text-rutgers {
+	z-index:100;
+    position: absolute;    
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+     left:13%;
+    top:65%;
+    width: 250px; 
+    text-align: center;
+    letter-spacing: -1px;  
+   	background: #4aaaa5;
+   	padding: 10px 0px 10px 0px;
+}
+
+.container-trivia {
+	position: relative;
+	
+}
+
+
+.text-trivia {
+	z-index:100;
+    position: absolute;    
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+     left:6.2%;
+    top:65%;
+    width: 230px; 
+    text-align: center;
+    letter-spacing: -1px;  
+   	background: #4aaaa5;
+   	padding: 10px;
+}
+
+.container-rps {
+	position: relative;
+	
+}
+
+
+.text-rps {
+	z-index:100;
+    position: absolute;    
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+     left:6.2%;
+    top:65%;
+    width: 250px; 
+    text-align: center;
+    letter-spacing: -1px;  
+   	background: #4aaaa5;
+   	padding: 10px 0px 10px 0px;
+}
+
+
 
 aside {
-	width: 370px;
+	width: 270px;
 	border: 1px solid #cccccc;
 	position: absolute;
 	left: 60%;
 	margin: 20px;
 	margin-top: 40px;
 	background-color: #ffffff;
-	padding: 5px;
+	padding: 0 30px 0 30px;
+	
 }
 aside h3 {
 	color: #4aaaa5;
 	font-size: 20px;
-	border-bottom: 2px solid #cccccc;
+	border-bottom: 2px solid #DCDCDC;
 	padding: 20px;
 	text-align: center;
+	font-weight: bold;
 
 }
 aside img {
 	width: 60px;
-	margin: 10px 10px 10px 43px;
+	padding: 20px 2px 20px 22px;
 }
-footer {
-	background-color: #666666;
-	position:absolute;
-   	bottom:0;
-   	width:100%;
-  	 height:60px; 
-	text-align: center;
-	padding-top: 50px;v
-}
+
