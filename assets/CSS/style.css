@@ -42,8 +42,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 body {
 	margin: 0 auto;
 	min-height: 100%;
@@ -86,6 +84,11 @@ nav p {
 	position: relative;
 	bottom: 50px;
 	right: 22%;
+}
+
+nav a:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
 }
 
 a, a:visited, a:hover, a:focus, a:active  {
@@ -154,4 +157,12 @@ footer {
   	 height:60px; 
 	text-align: center;
 	padding-top: 50px;v
+}
+
+.rotate:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
