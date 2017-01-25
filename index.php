@@ -1,1 +1,1 @@
-<?php include_once("Basic-portfolio.html"); ?>
+<?php include_once("Index.html"); ?>
